@@ -1,0 +1,520 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html, body {
+  margin: 0;
+  overflow-x: hidden !important;
+  width: 100vw;
+  height: 100vh;
+  background: #050A33;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #000000;
+}
+
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+}
+.rdDots {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+}
+
+.show {
+  display: block !important;
+}
+
+.rdPortfolioContent {
+  padding: 100px 120px;
+}
+.rdPortfolioContent .rdPortfolioFilter {
+  text-align: center;
+}
+.rdPortfolioContent .rdPortfolioFilter .btn {
+  margin: 0 20px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+}
+.rdPortfolioContent .rdPortfolioFilter .btn:hover, .rdPortfolioContent .rdPortfolioFilter .btn.active {
+  color: #BD6CFF;
+}
+.rdPortfolioContent .rdPortfolioItems {
+  margin-top: 35px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem {
+  margin-top: 56px;
+  display: none;
+  position: relative;
+  /* Style 1 */
+  /* Style 2 */
+  /* Style 3 */
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem .rdImg {
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 26vw;
+  height: 337px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem .rdCaption {
+  height: 40px !important;
+  overflow: hidden !important;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem a.rdGoTo {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem a.rdGoTo i {
+  margin-left: 15px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+1) {
+  margin-right: 1.5vw;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+1) .rdContent {
+  padding: 56px 12px 0 12px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+1) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  height: 50px;
+  overflow: hidden;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+1) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+  width: 24.5vw;
+  overflow: hidden;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+4) {
+  width: 26vw;
+  margin-right: 1.5vw;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+4) .rdContent {
+  padding: 56px 12px 0 12px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+4) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+4) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+8) {
+  width: 26vw;
+  margin-left: 1.5vw;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+8) .rdContent {
+  padding: 56px 12px 0 12px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+8) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+8) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+10) {
+  width: 26vw;
+  margin-left: 1.5vw;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+10) .rdContent {
+  padding: 56px 12px 0 12px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+10) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+10) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+2) {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  height: 337px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+2) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+2) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+2) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+2):hover .rdContent {
+  opacity: 1;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+3) {
+  margin-left: 1.5vw;
+  height: 337px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+3) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+3) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+3) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+3):hover .rdContent {
+  opacity: 1;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+6) {
+  margin-right: 1.5vw;
+  height: 337px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+6) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+6) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+6) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+6):hover .rdContent {
+  opacity: 1;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+7) {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+  height: 337px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+7) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+7) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+7) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+7):hover .rdContent {
+  opacity: 1;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5) {
+  margin-left: 1.5vw;
+  margin-top: -75px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5) .rdImg {
+  width: 55vw;
+  height: 658px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 4px;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+5):hover .rdContent {
+  opacity: 1;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9) {
+  margin-right: 1.5vw;
+  margin-top: -75px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9) .rdImg {
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 55vw;
+  height: 658px;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9) .rdContent {
+  transition: 0.5s;
+  opacity: 0;
+  padding: 12px;
+  width: 75%;
+  position: absolute;
+  bottom: 4px;
+  background-color: rgba(44, 17, 91, 0.39);
+  backdrop-filter: blur(55px);
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9) .rdContent .rdName {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9) .rdContent .rdCaption {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #DFDFE3;
+}
+.rdPortfolioContent .rdPortfolioItems div.rdItem:nth-of-type(10n+9):hover .rdContent {
+  opacity: 1;
+}
+
+@media screen and (max-width: 1600px) {
+  div.rdItem:nth-of-type(10n+1) {
+    margin-right: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+2) {
+    margin-right: 1vw !important;
+    margin-left: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+3) {
+    margin-left: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+4) {
+    margin-right: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+5) {
+    margin-left: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+6) {
+    margin-right: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+7) {
+    margin-right: 1vw !important;
+    margin-left: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+8) {
+    margin-left: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+9) {
+    margin-right: 1vw !important;
+  }
+  div.rdItem:nth-of-type(10n+10) {
+    margin-left: 1vw !important;
+  }
+}
+@media screen and (max-width: 1450px) {
+  div.rdItem:nth-of-type(10n+5) .rdImg {
+    width: 54vw !important;
+  }
+  div.rdItem:nth-of-type(10n+9) .rdImg {
+    width: 54vw !important;
+  }
+}
+@media screen and (max-width: 1399px) {
+  .rdPortfolioContent {
+    padding: 100px 100px !important;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .rdDots {
+    display: none;
+  }
+
+  .rdPortfolioContent {
+    padding: 75px 60px !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  .rdPortfolioContent {
+    padding: 30px !important;
+  }
+  .rdPortfolioContent .rdPortfolioFilter .btn {
+    margin: 15px 10px;
+    font-size: 14px !important;
+  }
+  .rdPortfolioContent .rdItem {
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+  }
+
+  div.rdItem:nth-of-type(1n+1) {
+    height: auto !important;
+    width: 40vw !important;
+    margin-top: 56px !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdContent {
+    transition: 0.5s !important;
+    opacity: 1 !important;
+    padding: 12px !important;
+    width: 100% !important;
+    position: static !important;
+    bottom: auto !important;
+    background-color: transparent !important;
+    backdrop-filter: none !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdContent .rdName {
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    height: 50px !important;
+    overflow: hidden !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdContent .rdCaption {
+    font-family: "Fira Sans", sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #DFDFE3 !important;
+    width: 24.5vw !important;
+    overflow: hidden !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdImg {
+    display: inline-block !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    width: 40vw !important;
+    height: 337px !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .rdPortfolioContent {
+    padding: 15vw;
+  }
+
+  div.rdItem:nth-of-type(1n+1) {
+    width: 80vw !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdImg {
+    width: 80vw !important;
+    height: 40vh !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .rdPortfolioContent {
+    padding: 5vw;
+  }
+
+  div.rdItem:nth-of-type(1n+1) {
+    width: 70vw !important;
+  }
+  div.rdItem:nth-of-type(1n+1) .rdImg {
+    width: 70vw !important;
+    height: 30vh !important;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

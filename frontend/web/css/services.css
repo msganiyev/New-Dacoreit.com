@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap");
+.services_head img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.services_box{
+    margin:0px 12px;
+}
+.pdtop{
+    padding-top:60px;
+}
+
+.img-container {
+  padding: 1.5rem;
+}
+
+.services_head::after {
+  content: "";
+  background: url("../img/ooo.png") right no-repeat;
+  background-size: auto;
+  width: 300px;
+  height: 938px;
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+div.step {
+  display: block;
+  position: relative;
+}
+
+span.back-text {
+  font-family: 'Fira Code', monospace;
+  position: absolute;
+  left: 0.02em;
+  top: 18px;
+  line-height: 1;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.2);
+  color: transparent;
+  font-weight: bold;
+  font-size: 80px;
+  text-transform: none;
+  z-index: 0;
+}
+
+span.front-text {
+  position: relative;
+  font-family: Fira Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  color: #579AFF;
+  opacity: 1;
+  margin-left: 80px;
+  z-index: 1;
+}
+
+.step > .details {
+  margin-left: 1.9rem;
+  padding-right: 3.25rem;
+}
+
+.block-title {
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.block-title-purple {
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #A56EF4;
+  font-size: 25px;
+}
+
+.services_buttons {
+  background-color: #14052F;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.services_buttons .blue-button, .services_buttons .black-button {
+  border-radius: 0;
+  text-transform: unset;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+.services_buttons .blue-button {
+  background-color: #4452FE;
+}
+.services_buttons .black-button {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
+
+.icon-mobile p {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 15px;
+}
+.icon-mobile p.text-2 {
+  margin-top: 25px;
+}
+.icon-mobile h6 {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Fira Sans', sans-serif;
+}
+.icon-mobile img {
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+.icons-mobile {
+  height: 100px;
+}
+
+.services_websites {
+  background-color: #14052F;
+  position: relative;
+  padding:0px 12px;
+}
+.services_websites::after {
+  content: "";
+  background: url("../img/red-dots.png") right no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  right: 12%;
+  z-index: 0;
+}
+
+.services_features {
+  /*background-color: #14052F;*/
+  width:1760px !important;
+  margin:0 auto;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+
+.to-center {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.ac-item {
+  background: #091542;
+  border-radius: 0;
+}
+.ac-item .btn-link {
+  border-radius: 0;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.ac-item .btn-link:hover {
+  text-decoration: none;
+}
+
+.ac-head-text {
+  color: #ffffff;
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: 600;
+}
+
+.ac-content {
+  background-color: transparent;
+  font-size: 14px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 400;
+  color: #A0A0A8;
+}
+
+.accordion {
+  margin-top: 4rem;
+}
+
+.margin-top-4 {
+  margin-top: 6rem;
+}
+
+.accordion > .card {
+  overflow: inherit;
+  background-color: transparent;
+  margin-top: 1.05rem;
+  margin-bottom: 1.05rem;
+}
+
+.services_crm {
+  position: relative;
+}
+.services_crm::after {
+  content: "";
+  background: url("../img/red-dots.png") left no-repeat;
+  background-size: auto;
+  width: 90%;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  left: 13%;
+  z-index: 0;
+}
+
+.services_chatbots {
+  position: relative;
+}
+.services_chatbots::after {
+  content: "";
+  background: url("../img/red-dots.png") right no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 47px;
+  right: 99px;
+  z-index: 0;
+}
+@media (max-width: 1430px){
+.services_features {
+    width: 100% !important;
+    margin: 0 auto;
+}
+    
+}

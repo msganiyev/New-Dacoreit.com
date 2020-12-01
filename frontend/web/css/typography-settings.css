@@ -1,0 +1,38 @@
+/* Typography settings here */
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.text-level-1 {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+
+.text-level-2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text-level-3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.text-level-4 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+p.description-text {
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    color: #A0A0A8;
+    margin-top: 2em;
+}
+

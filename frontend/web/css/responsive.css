@@ -1,0 +1,85 @@
+ul.navbar-nav li a,
+ul.navbar-nav li a:after,
+ul.navbar-nav li a:before {
+    transition: all 0.25s;
+  }
+ul.navbar-nav li a:hover {
+    color: #0000ff;
+  }
+  
+
+  /* stroke */
+ul.navbar-nav li a {
+    position: relative;
+  }
+  
+ ul.navbar-nav li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '';
+    color: transparent;
+    background: #fff;
+    height: 1px;
+  }
+  
+  ul.navbar-nav li a:hover:after {
+    width: 100%;
+  }
+  
+div.team_gril{
+    background-color:#2C115B ;
+}
+ 
+@media (min-width: 1200px) and (max-width: 1399px){
+  span.logo_mobile{
+    display: none;
+  }
+  .banner_create {
+        margin-top: 100px;
+        padding-top:0px !important;
+      
+  }
+  div.image_banner{
+          padding-bottom: 200px;
+  }
+  h1.h1_cl{
+      font-size:77px !important;
+  }
+  li.nav-item{
+    padding: 0 14px;
+  }
+  p.text_nav {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px !important;
+    line-height: 77px;
+  }
+  .nav_btn_mobile{
+    display: none;
+  }
+  .owl-nav {
+    position: absolute;
+    top: 250px;
+    left: -300px !important;
+ }
+ .header_line_rgt_one {
+        top: 230px;
+        height: 440px !important;
+        padding: 50px 0;
+    }
+}
+@media(min-width: 1400px){
+  .nav_btn_mobile{
+    display: none !important;
+ }
+}
+
+section.map{
+  width:100%;
+  display:none;
+}
